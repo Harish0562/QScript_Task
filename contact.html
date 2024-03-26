@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - QScript Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">QScript Coffee</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <!-- <li><a href="contact.html">Contact Us</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="coffee-shop">
+        <div class="coffee-image">
+            <img src="contact_us_photo.jpeg" alt="Coffee Shop Image">
+            <div class="overlay">
+                <div class="content">
+                    <h1>Welcome to QScript Coffee</h1>
+                    <p>Discover our specialty coffee and pastries</p>
+                    <h2>Contact Us</h2>
+                    <form id="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d77.594566!3d12.971599!4m5!3m4!1s0x0:0x0!8m2!3d12.971599!4d77.594566" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="contact-details">
+                <h2>Contact Us</h2>
+                <p>Visit us at:</p>
+                <address>
+                    123 Coffee Shop, City, Country<br>
+                    Phone: +1234567890
+                </address>
+            </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
